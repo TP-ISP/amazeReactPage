@@ -5,6 +5,7 @@ import Index from './Home';
 import {Router, Route, hashHistory} from 'react-router';
 import List from './List';
 import Recent from './Recent';
+import ErrorPage from './ErrorPage';
 
 
 
@@ -19,7 +20,8 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Index}/>
     <Route path="/list" component={List}/>
-    <Route path="/recent" component={Recent}/>
+    <Route path="/about" component={Recent}/>
+    <Route path="*" component={ErrorPage}/>
   </Router>,
   document.getElementById('amaze')
 );
