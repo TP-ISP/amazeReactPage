@@ -1,3 +1,8 @@
-## 简介
+## amazeReactPage
 
-这是一个采用React和Bulma框架制作的全组件形式的论坛展示界面剂后人台管理界面。
+采用amaze-ui的component套件构建的一套博客展示界面
+
+## 技术栈
+
+1. React.js
+2. Amaze-ui
