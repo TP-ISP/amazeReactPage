@@ -21,7 +21,6 @@ ReactDOM.render(
     <Route path="/" component={Index}/>
     <Route path="/list" component={List}/>
     <Route path="/about" component={Recent}/>
-    <Route path="*" component={ErrorPage}/>
   </Router>,
-  document.getElementById('amaze')
+  document.getElementById('root')
 );
